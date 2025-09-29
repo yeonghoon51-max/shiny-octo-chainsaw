@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.smartmoving.smartstarter.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ClientPlayerMixin"
+  ],
+  "server": [
+    "ServerPlayNetworkHandlerMixin",
+    "ServerPlayerEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
